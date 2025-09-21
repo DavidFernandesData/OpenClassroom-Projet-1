@@ -35,20 +35,6 @@ Feuille 2 : tableau récap par client (nb d’achats, CA, total).
 
 notes/approche_methodo.md — hypothèses, calculs KPI, méthode de prévision, choix de dataviz.
 
-🗂️ Arborescence conseillée
-.
-├── data/
-│   ├── raw/                      # fichiers sources non modifiés
-│   └── interim/                  # exports nettoyés (si besoin)
-├── excel/
-│   └── dashboard_clients_affilies.xlsx
-├── slides/
-│   └── rapport_mensuel_5_slides.pptx
-├── notes/
-│   └── approche_methodo.md
-├── scripts/                      # optionnel (prépa données/graphes)
-│   └── kpi_checks.md
-└── README.md
 🔢 KPIs & définitions (référentiel)
 
 CA (chiffre d’affaires) : Σ (prix × quantités) sur la période.
@@ -70,37 +56,16 @@ Garder ces définitions identiques entre slides & Excel pour éviter les incohé
 🧩 Étape 1 — Rapport mensuel (5 slides max)
 
 Demande du Directeur Marketing (Frédéric)
-
 Expliquer d’où vient la baisse du CA et comment la situation va évoluer dans les prochains mois.
-
 Utiliser des graphiques mensuels pour couvrir :
-
 Proportion des ventes par catégorie (focus : alimentaire & biens de conso ; High Tech arrêté N‑1).
-
 Montant des achats des clients (panier).
-
-Évolutions dans le temps :
-
-CA ;
-
-nb d’achats ;
-
-ratio achats/visites (≈ conversion) ;
-
-nb de visites ;
-
-variabilité du temps passé (sessions avec achat).
-
+Évolutions dans le temps : CA ; nb d’achats ; ratio achats/visites (≈ conversion) ; nb de visites ; variabilité du temps passé (sessions avec achat).
 Temps passé (niveau, distribution) pour les sessions avec achat.
-
 Projection du CA (prochains mois).
-
 Storyline suggérée (exemple)
-
 Où on en est : répartition par catégorie & dynamique globale.
-
 Ce qui bouge : trafic, conversion, panier — qui explique quoi dans la variation du CA.
-
 Comportement d’achat : temps passé, signe d’intention/ friction.
 
 Projection : tendance (saisonnalité possible), scénario prudent/central/optimiste.
@@ -175,28 +140,13 @@ Ajouter totaux en bas & slicers (mois, segment).
 
 🧪 Checklist qualité
 
-
-
-
-🚀 Axe stratégique (pistes)
-
-Contexte : arrêt du High Tech l’an dernier ; focus alimentaire & biens de conso.
-
-Accroître le panier : bundles « essentiels », remises progressives, cross‑sell (« acheté avec »).
-
-Booster la conversion : A/B test sur pages catégories clés, simplification checkout, urgences/stock.
-
-Trafic qualifié : SEO recettes & guides, partenariats influence micro‑niches, CRM (email/sms) segmenté.
-
-Fidélisation affiliés : paliers de commission liés au CA incrémental, challenges mensuels.
-
 🔐 Conformité & données
 
 Respecter RGPD (fichiers anonymisés / pseudonymisés si exportés).
 
 Versionner les fichiers Excel lourds via LFS (si nécessaire) ou publier uniquement des exports.
 
-🔧 Reproductibilité (optionnel)
+🔧 Reproductibilité 
 
 Si vous utilisez des scripts (Python/R) pour préparer des graphes :
 
@@ -218,4 +168,4 @@ Brief & trame fournis par Frédéric (Directeur Marketing) & Pauline (Marketing)
 
 📜 Licence
 
-Ce dépôt est fourni à des fins pédagogiques. Adapter la licence selon le contexte de remise.
+Ce dépôt est fourni à des fins pédagogiques
