@@ -1,4 +1,4 @@
-# OpenClassroom-Projet-1
+# OpenClassroom-Projet-2
 Grand Marché — Rapport marketing mensuel & analyse clients affiliés
 
 Projet pédagogique (OpenClassrooms) — Data Analyst, service Marketing du Grand Marché (grande distribution : alimentaire, biens de consommation)
